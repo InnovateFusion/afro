@@ -1,0 +1,1 @@
+enum ApiRequestStatus { initial, loading, success, error, unauthenticated, unknown, noInternet, noData, loadMore, connecting, connected }

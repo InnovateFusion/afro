@@ -1,0 +1,136 @@
+name: style_hub
+description: "A new Flutter project."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  bloc: ^8.1.4
+  flutter_svg: ^2.0.10+1
+  equatable: ^2.0.5
+  meta: ^1.11.0
+  flutter_bloc: ^8.1.5
+  internet_connection_checker: ^1.0.0+1
+  http: ^1.2.1
+  bloc_concurrency: ^0.2.5
+  stream_transform: ^2.1.0
+  either_dart: ^1.0.0
+  get_it: ^7.6.9
+  shimmer: ^3.0.0
+  flutter_otp_text_field: ^1.1.3+2
+  persistent_bottom_nav_bar:
+    git:
+      url: https://github.com/duressa-feyissa/PersistentBottomNavBar.git
+  shared_preferences: ^2.2.3
+  url_launcher: ^6.3.0
+  share_plus: ^9.0.0
+  flutter_rating_stars: ^1.1.0
+  timeago: ^3.7.0
+  image_picker: ^1.1.2
+  image_cropper: ^7.1.0
+  fl_chart: ^0.68.0
+  geolocator: ^12.0.0
+  baseflow_plugin_template: ^2.1.2
+  geocoding: ^3.0.0
+  location: ^7.0.0
+  multi_select_flutter: ^4.1.3
+  signalr_netcore: ^1.3.9
+  uuid: ^4.4.2
+  flutter_chat_types: ^3.6.2
+  flutter_chat_ui: ^1.6.15
+  mime: ^1.0.6
+  file_picker: ^8.0.7
+  open_filex: ^4.5.0
+  flutter_background_service: ^5.0.10
+  flutter_local_notifications: ^17.2.2
+  intl: ^0.19.0
+  collection: ^1.18.0
+  lottie: ^3.1.2
+  flutter_spinkit: ^5.2.1
+  flutter_localizations:
+    sdk: flutter
+  flutter_native_splash: ^2.4.1
+  permission_handler: ^11.3.1
+  flutter_image_compress: ^2.3.0
+  path_provider: ^2.1.4
+  http_parser: ^4.0.2
+  tiktoklikescroller: ^0.2.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  fonts:
+    - family: Mulish
+      fonts:
+        - asset: assets/fonts/Mulish/static/Mulish-Black.ttf
+        - asset: assets/fonts/Mulish/static/Mulish-BlackItalic.ttf
+        - asset: assets/fonts/Mulish/static/Mulish-Bold.ttf
+        - asset: assets/fonts/Mulish/static/Mulish-BoldItalic.ttf
+        - asset: assets/fonts/Mulish/static/Mulish-ExtraBold.ttf
+        - asset: assets/fonts/Mulish/static/Mulish-ExtraBoldItalic.ttf
+        - asset: assets/fonts/Mulish/static/Mulish-ExtraLight.ttf
+        - asset: assets/fonts/Mulish/static/Mulish-ExtraLightItalic.ttf
+        - asset: assets/fonts/Mulish/static/Mulish-Italic.ttf
+        - asset: assets/fonts/Mulish/static/Mulish-Light.ttf
+        - asset: assets/fonts/Mulish/static/Mulish-LightItalic.ttf
+        - asset: assets/fonts/Mulish/static/Mulish-Medium.ttf
+        - asset: assets/fonts/Mulish/static/Mulish-MediumItalic.ttf
+        - asset: assets/fonts/Mulish/static/Mulish-Regular.ttf
+        - asset: assets/fonts/Mulish/static/Mulish-SemiBold.ttf
+        - asset: assets/fonts/Mulish/static/Mulish-SemiBoldItalic.ttf
+        - asset: assets/fonts/Mulish/Mulish-Italic-VariableFont_wght.ttf
+        - asset: assets/fonts/Mulish/Mulish-VariableFont_wght.ttf
+
+  assets:
+    - assets/icons/notifaction.svg
+    - assets/images/Screens/no_message.png
+    - assets/images/Screens/no_connect.png
+    - assets/images/onboarding/1.png
+    - assets/images/onboarding/2.png
+    - assets/images/onboarding/3.png
+    - assets/images/Screens/no_search_result.png
+    - assets/images/Screens/review.png
+    - assets/icons/facebook.svg
+    - assets/icons/instagram.svg
+    - assets/icons/linkedin.svg
+    - assets/icons/notifaction.svg
+    - assets/icons/notifaction_dark.svg
+    - assets/icons/telegram.svg
+    - assets/icons/tiktok.svg
+    - assets/icons/whatsup.svg
+    - assets/icons/x.svg
+    - assets/icons/youtube.svg
+    - assets/images/Screens/person.png
+    - assets/images/Screens/favorite_product.svg
+    - assets/images/Screens/product.svg
+    - assets/images/Screens/no_data.png
+    - assets/images/Screens/no_photo.png
+    - assets/lottie/Animation_1.json
+    - assets/lottie/Animation_2.json
+    - assets/lottie/Animation_3.json
+    - assets/lottie/Animation_4.json
+    - assets/lottie/Animation_5.json
+    - assets/images/Screens/calander.png
+    - assets/images/Screens/gender.png
+    - assets/images/Screens/location.png
+    - assets/images/Screens/finish.png
+    - assets/images/Screens/afro_1.png
+    - assets/images/Screens/afro_2.png
+    - assets/icons/logo.png
+    - assets/icons/no_internet.png
+    - assets/icons/Afro.png
+    - assets/icons/product.png
