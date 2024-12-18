@@ -1,4 +1,4 @@
-# Project Structure
+# Afro Stores Project Structure
 
 This project consists of three main components:
 
